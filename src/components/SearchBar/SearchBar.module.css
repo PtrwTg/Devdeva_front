@@ -1,50 +1,88 @@
+/* SearchBar.module.css */
 .container {
-    display: flex;
-    align-items: center;
-    height: 100px;
-    margin-top: 40px;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  margin-top: 40px;
+ }
+ 
+ .title {
+  color: rgb(126, 121, 121);
+  margin-left: 60px;
+ }
+ 
+ .searchBar {
+  display: flex;
+  align-items: center;
+  margin-left: 350px;
+ }
+ 
+ .searchBar input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  border-color: black;
+  margin-right: 0.5rem;
+  width: 500px;
+  height: 50px;
+ }
+ 
+ .searchBar button {
+  padding: 0.5rem;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+ }
+ 
+ .addButton {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 270px;
+  width: 130px;
+  height: 50px;
+ }
+ 
+ @media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: stretch;
+    height: auto;
+    margin-top: 20px;
   }
-  
+ 
   .title {
-    color: rgb(126, 121, 121);
-    margin-left: 60px;
-
+    margin-left: 0;
+    margin-bottom: 1rem;
+    text-align: center;
   }
-  
+ 
   .searchBar {
-    display: flex;
-    align-items: center;
-    margin-left: 350px;
+    margin-left: 0;
+    margin-bottom: 1rem;
+    width: 100%;
   }
-  
+ 
   .searchBar input {
-    padding: 0.5rem;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    border-color: black;
-    margin-right: 0.5rem;
-    width: 500px;
-    height: 50px;
+    width: 100%;
+    max-width: unset;
+    box-sizing: border-box;
   }
-  
-  .searchBar button {
-    padding: 0.5rem;
-    color: black;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    height: 50px;
-    width: 50px;
+ 
+  .divadd {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
   }
-  
+ 
   .addButton {
-    padding: 0.5rem 1rem;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-left: 270px;
-    width: 130px;
-    height: 50px;
+    margin-left: 0;
   }
+ }
