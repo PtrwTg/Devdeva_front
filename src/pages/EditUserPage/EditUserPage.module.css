@@ -1,0 +1,126 @@
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 65px;
+    height: 100px;
+    margin-top: 40px;
+  }
+  
+  .updateUser {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(126, 121, 121);
+  }
+  
+  .formContainer {
+    display: flex;
+    height: 400px;
+  }
+  
+  .profilePictureSection {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .profilePicture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: white;
+    margin-bottom: 10px;
+    border: 2px solid rgb(126, 121, 121);
+  }
+  
+  .uploadButton,
+  .deleteButton {
+    margin-top: 20px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .uploadButton {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .deleteButton {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .formSection {
+    width: 75%;
+    padding: 20px;
+  }
+  
+  .formRow {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+  
+  .labelFieldA {
+    width: 50%;
+    font-weight: bold;
+    color: rgb(126, 121, 121);
+    margin-top: 80px;
+  }
+  
+  .labelField {
+    width: 50%;
+    font-weight: bold;
+    color: rgb(126, 121, 121);
+    margin-top: 40px;
+  }
+  
+  .formField {
+    width: 50%;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .formField input,
+  .formField select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .buttonRow {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  
+  .cancelButton,
+  .saveButton {
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 50px;
+    width: 130px;
+    height: 40px;
+  }
+  
+  .cancelButton {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  .saveButton {
+    background-color: #28a745;
+    color: white;
+  }
